@@ -1,0 +1,32 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Device Version: C
+//Created Time: Wed 07 15 17:20:00 2026
+
+IO_LOC "state_out[2]" L16;
+IO_PORT "state_out[2]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "state_out[1]" L14;
+IO_PORT "state_out[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "state_out[0]" N14;
+IO_PORT "state_out[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_PORT "error_led" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "done_led" N16;
+IO_PORT "done_led" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_PORT "motor_fast" PULL_MODE=UP;
+IO_PORT "motor_on" PULL_MODE=UP;
+IO_PORT "drain_pump" PULL_MODE=UP;
+IO_PORT "water_valve" PULL_MODE=UP;
+IO_LOC "water_full" E8;
+IO_PORT "water_full" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "door_closed" E9;
+IO_PORT "door_closed" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "start" C7;
+IO_PORT "start" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "reset" T3;
+IO_PORT "reset" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "clk" H11;
+IO_PORT "clk" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
